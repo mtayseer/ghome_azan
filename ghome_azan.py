@@ -1,7 +1,7 @@
 import requests, googlehomepush, time, datetime, json, os, codecs, logging
 
-custom_alarms = {'07:50': 'Yusuf: you have to leave now',
-                 '07:30': 'Yusuf: you have 20 minutes'}
+custom_alarms = {'08:00': 'Yusuf and Mariam, we have to leave now',
+                 '07:30': 'Attention please, we have 30 minutes'}
 
 # We don't want to read prayer times from the web all the time, so we cache it
 # for every day

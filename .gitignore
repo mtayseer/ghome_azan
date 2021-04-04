@@ -1,0 +1,4 @@
+venv
+config.json
+*.prayer_times
+*.log
